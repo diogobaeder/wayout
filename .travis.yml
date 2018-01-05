@@ -2,3 +2,5 @@ language: rust
 rust:
   - nightly
 cache: cargo
+before_install:
+  - rustup default nightly-2017-12-21 
