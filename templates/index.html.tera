@@ -1,0 +1,5 @@
+{% extends "base" %}
+
+{% block content %}
+Let's build our own social network then!
+{% endblock content %}

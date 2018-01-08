@@ -3,3 +3,7 @@
 *~
 *un~
 *.orig
+.idea/
+static/node_modules/
+static/dist/
+*.swp
