@@ -14,7 +14,7 @@ use rocket_contrib::Template;
 fn index() -> Template {
     let mut context = HashMap::new();
 
-    context.insert("foo", "bar");
+    context.insert("foo", "bar-again");
 
     Template::render("index", &context)
 }

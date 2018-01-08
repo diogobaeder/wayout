@@ -1,5 +1,5 @@
 {% extends "base" %}
 
 {% block content %}
-Let's build our own social network then!
+Let's build our own social network then, {{ foo }}!
 {% endblock content %}
